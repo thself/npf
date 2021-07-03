@@ -39,7 +39,7 @@ Some key features are:
 For a full set of features and their description, see the NPF documentation
 and other manual pages.
 
-## Usage
+## Usage/s
 
 You can try **[NPF-Router](app)** as a demo NPF+DPDK application, running a
 virtual test network with Docker containers.
