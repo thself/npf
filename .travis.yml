@@ -57,7 +57,7 @@ install:
   - (cd libcdb && make deb && sudo dpkg -i ../libcdb*.deb)
 
 script:
-  # Build and install the NPF packages.
+  # Build and install the NPF packages
   - (cd pkg && make deb && sudo dpkg -i ../libnpf*.deb ../npfctl*.deb)
   # Setup the npftest configuration.
   - (cd src/npftest && make && npfctl debug -c npftest.conf -o /tmp/npf.nvlist)
